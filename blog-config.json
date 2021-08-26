@@ -1,0 +1,6 @@
+{
+    "blog":"index.html",
+    "rss":"rss.xml",
+    "template":"entry.html",
+    "website":"https://colab-development.github.io/"
+}

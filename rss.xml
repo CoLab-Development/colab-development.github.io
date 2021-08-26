@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/css" href="rss.css" ?>
+<rss version="2.0"
+    xmlns:atom="http://www.w3.org/2005/Atom">
+
+    <channel>
+        <title>CoLab Feed</title>
+        <description>Blog updates from the team behind CoLab!</description>
+        <language>en-us</language>
+        <link>https://colab-development.github.io/rss.xml</link>
+        <atom:link href="https://colab-development.github.io/rss.xml" rel="self" type="application/rss+xml" />
+
+        <!-- LB -->
+
+        <item>
+            <title>Hello World</title>
+            <guid>https://colab-development.github.io/entry.html#hello-world</guid>
+            <pubDate>Thu, 26 Aug 2021 04:21:56 +0100</pubDate>
+            <description>
+                <![CDATA[
+                <p>This is a pretty neat blog post!</p>
+                ]]>
+            </description>
+        </item>
+
+
+
+
+    </channel>
+</rss>

@@ -57,7 +57,6 @@ nav
     background: #{$primary-color-gradient}
     display: block
     position: relative
-    margin: 0 0 50px 0
 
     .divider
         width: 100%
@@ -90,7 +89,7 @@ html,body
 
 main
     @include sans-light
-    margin: 50px 0 100px 0px
+    margin: 300px 0 100px 0px
 
 h3 > a
     color: $primary-color
@@ -161,7 +160,7 @@ blockquote
     color: #000
 
 // Main site content
-.text-container
+.center
     display: grid
     place-items: center
 
@@ -232,11 +231,29 @@ blockquote
 .gist
     max-width: 85vw !important
 
-.top-border
-    position: absolute
-    top: -50px
-    overflow: visible
-    left: 0
+section
+    margin: 100px 0
+    min-height: 100vh
+
+.filled
     width: 100vw
-    height: 500px
-    background-image: url("/files/img/layered.svg")
+    background-color: #c62368
+    position: relative
+    display: block
+    color: #fff
+
+    margin: 100px 0 300px 0
+
+    .border-top, .border-bottom
+        position: absolute
+        display: block
+        overflow: visible
+        left: 0
+        width: 100vw
+        height: 500px
+
+    .border-top
+        top: -500px
+
+    .border-bottom
+        bottom: -500px
