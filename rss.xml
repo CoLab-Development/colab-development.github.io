@@ -10,21 +10,6 @@
         <link>https://colab-development.github.io/rss.xml</link>
         <atom:link href="https://colab-development.github.io/rss.xml" rel="self" type="application/rss+xml" />
 
-        <!-- LB -->
-
-        <item>
-            <title>Hello World</title>
-            <guid>https://colab-development.github.io/entry.html#hello-world</guid>
-            <pubDate>Thu, 26 Aug 2021 04:21:56 +0100</pubDate>
-            <description>
-                <![CDATA[
-                <p>This is a pretty neat blog post!</p>
-                ]]>
-            </description>
-        </item>
-
-
-
-
+        <!-- OB -->
     </channel>
 </rss>
